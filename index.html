@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/regular.min.css"
+        integrity="sha512-NS4bvr33ByUDu2Gn8VorG7iI8slpV+QnGmQf52yTjsCnCKMKzJq1/ldMlR8NEPxhZosvqg9hGFX8BrRQI/yF9w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Navalha de Ouro</title>
+</head>
+
+<body class="bg-[#110C08]">
+    <header class="flex justify-between mx-auto max-w-6xl px-6 py-10">
+        <div class="flex gap-x-[0.3rem] items-center">
+            <i class="fa-solid fa-scissors text-[#E29940]"></i>
+            <span class="text-[#E29940] text-lg font-mono">NAVALHA DE OURO</span>
+        </div>
+        <a class="font-lg duration-0.3 hover:text-[#E29940] font-sans text-[#A19688]" href="#servicos">Serviços</a>
+    </header>
+
+    <main>
+        <div id="hero" class="mx-auto max-w-6xl px-6 py-[3rem] flex items-center justify-between">
+            <div class="max-w-1/2 flex flex-col gap-y-[2rem]">
+                <div class="flex flex-col gap-y-[1rem]">
+                    <span class="text-base text-[#E29940]">Desde 1998</span>
+                    <h1 class="font-sans text-7xl font-weight-bold text-white w-full">CORTE DE VERDADE, FEITO COM
+                        NAVALHA E PACIÊNCIA</h1>
+                </div>
+                <p class="font-lg font-sans text-[#A19688]">Uma barbearia de bairro para quem gosta do
+                    clássico bem feito.
+                    Sem pressa, sem fila — só hora marcada.
+                </p>
+                <div class="flex gap-[1rem]">
+                    <a class="bg-[#E29940] px-12 py-2 duration-300 hover:scale-105 font-base font-sans rounded-xs" href="#">Agendar horário</a>
+                    <a class="bg-transparent px-12 py-2 duration-0.3 hover:bg-[#1E1711] font-base text-[#A19688] font-sans rounded-xs border-solid border-2 border-[#352C24]" href="#servicos">Ver serviços</a>
+                </div>
+            </div>
+            <div class="max-w-2/5 w-full">
+                <img class="w-full bg-cover bg-center bg-no-repeat" src="img/undraw_barber_utly.svg" alt="">
+            </div>
+        </div>
+
+        <div id="servicos" class="mx-auto max-w-6xl px-6 py-24">
+            <h2 class="font-mono text-white text-4xl">SERVIÇOS</h2>
+            <div class="container-servicos divide-y divide-[#352C24] border-y border-[#352C24] my-8">
+                <div class="servico flex justify-between px-8 py-4">
+                    <div class="servicos-header">
+                        <h3 class="text-2xl text-white font-mono">CORTE CLÁSSICO</h3>
+                        <p class="text-md text-[#A19688] font-sans">Tesoura, máquina e finalização</p>
+                    </div>
+                    <span class="preco text-[#E29940] font-sans text-2xl">R$ 60</span>
+                </div>
+                <div class="servico flex justify-between px-8 py-4">
+                    <div class="servicos-header">
+                        <h3 class="text-2xl text-white font-mono">BARBA NA NAVALHA</h3>
+                        <p class="text-md text-[#A19688] font-sans">Toalha quente e óleos essenciais</p>
+                    </div>
+                    <span class="preco text-[#E29940] font-sans text-2xl">R$ 60</span>
+                </div>
+                <div class="servico flex justify-between px-8 py-4">
+                    <div class="servicos-header">
+                        <h3 class="text-2xl text-white font-mono">CORTE + BARBA</h3>
+                        <p class="text-md text-[#A19688] font-sans">O combo completo da casa</p>
+                    </div>
+                    <span class="preco text-[#E29940] font-sans text-2xl">R$ 60</span>
+                </div>
+                <div class="servico flex justify-between px-8 py-4">
+                    <div class="servicos-header">
+                        <h3 class="text-2xl text-white font-mono">PEZINHO & ACABAMENTO</h3>
+                        <p class="text-md text-[#A19688] font-sans">Retoque rápido entre visitas</p>
+                    </div>
+                    <span class="preco text-[#E29940] font-sans text-2xl">R$ 60</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="info" class="bg-[#1E1711] py-[5rem]">
+            <div id="container-info" class="w-full h-full flex justify-around px-[7rem]">
+                <div class="info flex-col">
+                    <i class="fa-solid fa-location-dot text-[#E29940]"></i>
+                    <h3 class="text-white text-2xl font-mono">ONDE ESTAMOS</h3>
+                    <p class="font-sans text-base text-[#A19688]">Rua das Palmeiras, 120 — Vila Madalena, São Paulo</p>
+                </div>
+                <div class="info flex-col">
+                    <i class="fa-regular fa-clock text-[#E29940]"></i>
+                    <h3 class="text-white text-2xl font-mono">HORÁRIOS</h3>
+                    <d class="font-sans text-base text-[#A19688]" iv class="horarios">
+                        <p>Ter a sex: 9h às 20h</p>
+                        <p>Sábado: 9h às 18h</p>
+                    </d>
+                </div>
+                <div class="info flex-col">
+                    <i class="fa-solid fa-phone text-[#E29940]"></i>
+                    <h3 class="text-white text-2xl font-mono">CONTATO</h3>
+                    <p class="font-sans text-base text-[#A19688]">(11) 99999-9999</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="wfull flex justify-center items-center py-[2rem] text-[#A19688]">
+        © 2026 Barbearia Navalha de Ouro
+    </footer>
+</body>
+
+</html>
